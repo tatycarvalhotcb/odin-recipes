@@ -1,2 +1,3 @@
 # odin-recipes
 This is a website to show my favorite 3 recipes. I made to practice some HTML syntax that I learned in the Odin Project, like link, images, lists, headings, paragraphs...
+Add some style with CSS as well.
