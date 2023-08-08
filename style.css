@@ -1,0 +1,35 @@
+/* style for the Odin Recipes website */
+
+body {
+    background-color: rgb(241, 223, 200);
+    font-family: Monaco, Helvetica, Georgia, serif;
+}
+
+.center {
+    text-align: center;
+}
+
+div ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.margin {
+    margin-left: 10%;
+}
+
+.recipes-img, .index-img {
+    border-style: solid;
+    border-color: rgb(107, 56, 56);
+}
+
+.index-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipes-img {
+    width: 200px;
+    height: auto;
+}
