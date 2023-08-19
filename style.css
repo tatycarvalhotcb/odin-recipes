@@ -2,20 +2,23 @@
 
 body {
     background-color: rgb(241, 223, 200);
-    font-family: Monaco, Helvetica, Georgia, serif;
+    font-family: Georgia;
 }
 
 .center {
     text-align: center;
 }
 
-div ul li {
-    list-style-type: none;
-    text-align: center;
+.no_marker ol li, ul li {
+    list-style-type: none; 
 }
 
+div ul li, div ol li { 
+    padding: 10px 20px 10px 0;
+} 
+
 .margin {
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 .recipes-img, .index-img {
@@ -32,4 +35,19 @@ div ul li {
 .recipes-img {
     width: 200px;
     height: auto;
+}
+
+.home_button {
+    border: rgb(107, 56, 56) solid;
+    padding: 10px 30px;
+    background-color: rgba(107, 56, 56, 0.521);
+    color: black;
+    margin: 20px;
+}
+
+hr {
+    width: auto;
+    margin: 10px 20px 10px 0;
+    border: solid 2px rgb(107, 56, 56);
+    
 }
